@@ -23,6 +23,6 @@ This project is designed using Maven+Cucumber+Selenium+Junit+RestAssured. Script
    ```sh
    mvn install
    ```
-# How to run Test Reports
+# How to check Test Reports
 
 1. After executing tests, goto projectFolder/target/cucumber-html-reports/cucumber-html-reports and open any html file.
