@@ -12,7 +12,7 @@ import setup.Setup;
 
 public class Hooks extends Setup {
 	
-	@Before()
+	@Before
 	public void initialize(Scenario scenario) {
 		
 		if(scenario.getId().toLowerCase().contains("ui")) {
@@ -24,7 +24,7 @@ public class Hooks extends Setup {
 		
 	}
 
-	@After()
+	@After
 	public void teardown(Scenario scenario) {
 		
 		if(scenario.getId().toLowerCase().contains("ui")) {

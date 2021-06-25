@@ -1,4 +1,4 @@
-Feature: Add, Edit, Delete, View Product
+Feature: UI Test: Add, Edit, Delete, View Product
 
   @SmokeTest
   Scenario: Add Product
